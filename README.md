@@ -12,7 +12,7 @@ I build production software where product strategy, AI, trust, and execution mee
 |---|---|---|---|
 | **pm.gold** | Governed system of record for product evidence, decisions, approvals, and outcomes | Active · design-partner stage | [pm.gold](https://pm.gold) · [Showcase](https://github.com/seantalluri/pm-gold-showcase) |
 | **CE Control Plane** | Identity, tenancy, federation, and provisioning layer connecting the Christ Everywhere product family | Active infrastructure | [Showcase](https://github.com/seantalluri/ce-control-plane-showcase) |
-| **Ezra** | Private study-to-pulpit workspace for pastors, combining research, writing, AI assistance, and pastor review | Active | [sermon.work](https://sermon.work) · [Showcase](https://github.com/seantalluri/ezra-showcase) |
+| **Ezra** | Private study-to-pulpit workspace with multi-provider model routing, golden evals, and pastor review | Active | [sermon.work](https://sermon.work) · [Showcase](https://github.com/seantalluri/ezra-showcase) |
 | **Koinonia** | Multi-tenant church management and worship-operations platform | Production | [koinonia.website](https://koinonia.website) · [Showcase](https://github.com/seantalluri/koinonia-showcase) |
 | **Christ Everywhere** | Faith-centered digital community ecosystem for Bible, prayer, groups, events, media, and community life | Beta | [christeverywhere.org](https://christeverywhere.org) · [App](https://christeverywhere.app) · [Showcase](https://github.com/seantalluri/christ-everywhere-showcase) |
 | **Tunify** | Public agentic-AI prototype demonstrating context, policy, human approval, refusal behavior, and evals | Public demo | [Source](https://github.com/seantalluri/tunify) |
@@ -22,6 +22,7 @@ I build production software where product strategy, AI, trust, and execution mee
 I care about products that remain trustworthy after the demo:
 
 - **Human-governed AI** — agents can research, draft, evaluate, and propose; consequential changes stay reviewable.
+- **Measured AI quality** — golden sets, deterministic graders, model judges, blind human review, and release gates should replace “looks good to me.”
 - **Traceability** — important outputs should retain evidence, provenance, version history, and the context that made them defensible.
 - **Fail-closed boundaries** — tenant isolation, authorization, and sensitive-data access should be enforced structurally rather than by UI convention.
 - **Platform independence** — connected products should share identity and orchestration without surrendering their domain data or local authorization.
@@ -30,11 +31,11 @@ I care about products that remain trustworthy after the demo:
 
 ## Engineering & Product Surface
 
-`AI product architecture` · `agentic systems` · `platform federation` · `MCP` · `RAG / retrieval` · `evaluation systems` · `React / Next.js` · `Python / FastAPI` · `Supabase / Postgres / pgvector` · `MongoDB` · `Vercel` · `Railway` · `Capacitor` · `OpenAI` · `Anthropic` · `Google AI`
+`AI product architecture` · `agentic systems` · `LLMOps` · `golden datasets` · `eval harness design` · `deterministic + model-graded evals` · `multi-provider model routing` · `human-in-the-loop promotion gates` · `cost/quality optimization` · `AI observability` · `prompt/model version governance` · `MCP` · `RAG / retrieval` · `platform federation` · `React / Next.js` · `Python / FastAPI` · `Supabase / Postgres / pgvector` · `MongoDB` · `Vercel` · `Railway` · `Capacitor` · `OpenAI` · `Anthropic` · `Google AI`
 
 ## Private Engineering Activity
 
-These badges are designed to be generated from private repositories and publish **aggregate counts only**. They never expose commit messages, diffs, branches, SHAs, issue titles, or source code.
+These badges are generated from private repositories and publish **aggregate counts only**. They never expose commit messages, diffs, branches, SHAs, issue titles, filenames, or source code.
 
 ![pm.gold private activity](https://raw.githubusercontent.com/seantalluri/portfolio-metrics/main/metrics/pm-gold.svg)
 
@@ -56,8 +57,8 @@ A durable product-decision layer underneath AI assistants: evidence, typed decis
 ### CE Control Plane — Connect products without building a god service
 A platform layer for canonical identity, tenancy relationships, application federation, durable provisioning, and reconciliation—while leaving domain authorization and product data inside the products that own them.
 
-### Ezra — AI that serves the pastor, not replaces the pastor
-A study-to-pulpit workspace focused on research, writing, Scripture handling, sermon preparation, pastor review, and increasingly rigorous evidence/evaluation workflows.
+### Ezra — Model selection by evidence, not prestige
+A study-to-pulpit system with versioned golden sets, deterministic and independent model graders, blind pastor review, stage-specific multi-provider routing, hard experiment budgets, fail-closed promotion gates, shadow/UAT routes, and rollback. Its benchmark demonstrated that an economical cascade could outperform an all-frontier configuration, changing the architecture from “largest model everywhere” to measured task-specific routing.
 
 ### Koinonia — Church operations that work on Sunday
 People, households, groups, giving, volunteers, check-in, communications, service planning, reporting, and live worship presentation—designed around real church workflows and multi-tenant boundaries.
@@ -70,7 +71,7 @@ A deliberately inspectable static prototype showing context, policy application,
 
 ## How I Work
 
-My role across these products spans product vision, prioritization, system architecture, UX direction, AI architecture, governance, security tradeoffs, implementation, validation, and production operations. AI coding agents are part of the development system, but the product decisions, constraints, acceptance criteria, architecture boundaries, and release judgment remain human-owned.
+My role across these products spans product vision, prioritization, system architecture, UX direction, AI architecture, model/evaluation strategy, governance, security tradeoffs, implementation, validation, and production operations. AI coding agents are part of the development system, but product decisions, experimental design, acceptance criteria, architecture boundaries, promotion gates, and release judgment remain human-owned.
 
 ---
 
