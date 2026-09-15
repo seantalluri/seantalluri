@@ -1,8 +1,14 @@
 # Sean Talluri
 
-**Product Executive · AI Product Builder · Founder**
+**For Christ. For His glory.**
+
+Pastor · Founder & Product Leader · Author · Professor · Singer
+
+I live and work for Jesus Christ. I build products, teach, serve in ministry, and create music for His glory. I see this work as stewardship: using what God has entrusted to me to serve people well.
 
 I build production software where product strategy, AI, trust, and execution meet. My work spans governed AI systems, product-management infrastructure, platform architecture, faith-centered community products, church operations, and study-to-pulpit tools.
+
+Beyond the code, I’m the author of *The Product Steward*, a pastor at [El Bethel Church](https://elbethel.church), and a Gospel music creator through [El Bethel Media](https://www.youtube.com/@seantalluri). Explore my work at [seantalluri.com](https://seantalluri.com).
 
 > **Private source. Public proof.** Critical production repositories remain private. This profile publishes product outcomes, architecture-level decisions, sanitized development activity, and one fully public prototype without exposing proprietary source code, prompts, credentials, production schemas, or internal security details.
 
